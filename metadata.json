@@ -11,5 +11,18 @@
         "created_at": "2026-10-31T05:12:08.137Z",
         "updated_at": "2026-10-31T05:12:08.137Z",
         "type": "plugin"
+    },
+    {
+        "id": "5-AsQ-RWg3CZ-Lh9qHzAXxxRqir-T9JN",
+        "plugin": "Blue Topaz",
+        "language": "zh-cn",
+        "version": "2026081501",
+        "supported_versions": "2026081501",
+        "title": "Blue Topaz",
+        "description": "Blue Topaz Localization & Tweaks",
+        "hash": "2e1024352e1024352e1024352e102435",
+        "created_at": "2026-10-31T05:17:20.972Z",
+        "updated_at": "2026-10-31T05:17:20.972Z",
+        "type": "theme"
     }
 ]
