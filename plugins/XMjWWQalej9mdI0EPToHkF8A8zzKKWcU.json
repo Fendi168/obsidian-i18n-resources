@@ -1,0 +1,176 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "chronology",
+        "version": "1.0.0",
+        "title": "Chronology",
+        "description": "Chronology Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.1.14",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Default",
+                    "target": "默认"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "forceFrameRate takes a positive int between 0 and 125, forcing frame rates higher than 125 fps is not supported",
+                    "target": "forceFrameRate 接受 0 到 125 之间的正整数，不支持强制帧率高于 125 fps"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Adds an icon to the ribbon to open sidebar",
+                    "target": "在功能区添加图标以打开侧边栏"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Used to display the daily indicator in the calendar",
+                    "target": "用于在日历中显示每日指示器"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Default will use the one from your locale (${l[r]}). A plugin restart is required.",
+                    "target": "默认将使用你所在区域设置中的值（${l[r]}）。需要重启插件。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The name of the metadata attribute to use for creation date",
+                    "target": "用于创建日期的元数据属性名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The name of the metadata attribute to use for modified date",
+                    "target": "用于修改日期的元数据属性名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Add Ribbon Icon",
+                    "target": "添加功能区图标"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Average Daily Notes",
+                    "target": "每日笔记平均数"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "First Day of the Week",
+                    "target": "每周第一天"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Creation Date Attribute",
+                    "target": "创建日期属性"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Modified Date Attribute",
+                    "target": "修改日期属性"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Show Sidebar",
+                    "target": "显示侧边栏"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Chronology Settings",
+                    "target": "年表设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "today",
+                    "target": "今天"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Created",
+                    "target": "创建时间"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Modified",
+                    "target": "修改时间"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Click To Expand",
+                    "target": "点击展开"
+                }
+            ],
+            "regex": [
+                {
+                    "source": "setName(\"Add Ribbon Icon\")",
+                    "target": "setName(\"Add Ribbon Icon\")"
+                },
+                {
+                    "source": "setDesc(\"Adds an icon to the ribbon to open sidebar\")",
+                    "target": "setDesc(\"Adds an icon to the ribbon to open sidebar\")"
+                },
+                {
+                    "source": "setName(\"Average Daily Notes\")",
+                    "target": "setName(\"Average Daily Notes\")"
+                },
+                {
+                    "source": "setDesc(\"Used to display the daily indicator in the calendar\")",
+                    "target": "setDesc(\"Used to display the daily indicator in the calendar\")"
+                },
+                {
+                    "source": "setName(\"First Day of the Week\")",
+                    "target": "setName(\"First Day of the Week\")"
+                },
+                {
+                    "source": "setDesc(`Default will use the one from your locale (${l[r]}). A plugin restart is required.`)",
+                    "target": "setDesc(`Default will use the one from your locale (${l[r]}). A plugin restart is required.`)"
+                },
+                {
+                    "source": "setName(\"Creation Date Attribute\")",
+                    "target": "setName(\"Creation Date Attribute\")"
+                },
+                {
+                    "source": "setDesc(\"The name of the metadata attribute to use for creation date\")",
+                    "target": "setDesc(\"The name of the metadata attribute to use for creation date\")"
+                },
+                {
+                    "source": "setName(\"Modified Date Attribute\")",
+                    "target": "setName(\"Modified Date Attribute\")"
+                },
+                {
+                    "source": "setDesc(\"The name of the metadata attribute to use for modified date\")",
+                    "target": "setDesc(\"The name of the metadata attribute to use for modified date\")"
+                },
+                {
+                    "source": "text:\"Chronology Settings\"",
+                    "target": "text:\"Chronology Settings\""
+                },
+                {
+                    "source": "name:\"Show Sidebar\"",
+                    "target": "name:\"Show Sidebar\""
+                }
+            ]
+        }
+    }
+}

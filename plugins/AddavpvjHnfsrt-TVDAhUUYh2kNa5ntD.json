@@ -1,0 +1,80 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "vault-name-status-bar",
+        "version": "1.0.0",
+        "title": "Vault name in status bar",
+        "description": "Vault name in status bar Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.1.1",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerText",
+                    "source": "::",
+                    "target": "::"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Will be reduced by default",
+                    "target": "默认将折叠"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Reduced at Start",
+                    "target": "启动时折叠"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Set color & size",
+                    "target": "设置颜色和大小"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Vaut Name in Status Bar",
+                    "target": "状态栏中的库名称"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Click on the vault name or on :: to reduce or enlarge",
+                    "target": "点击库名称或 :: 以折叠或展开"
+                }
+            ],
+            "regex": [
+                {
+                    "source": "setName(\"Reduced at Start\")",
+                    "target": "setName(\"Reduced at Start\")"
+                },
+                {
+                    "source": "setDesc(\"Will be reduced by default\")",
+                    "target": "setDesc(\"Will be reduced by default\")"
+                },
+                {
+                    "source": "setName(\"Set color & size\")",
+                    "target": "setName(\"Set color & size\")"
+                },
+                {
+                    "source": "innerText = \"::\"",
+                    "target": "innerText = \"::\""
+                },
+                {
+                    "source": "text: \"Vaut Name in Status Bar\"",
+                    "target": "text: \"Vaut Name in Status Bar\""
+                },
+                {
+                    "source": "text: \"Click on the vault name or on :: to reduce or enlarge\"",
+                    "target": "text: \"Click on the vault name or on :: to reduce or enlarge\""
+                }
+            ]
+        }
+    }
+}
