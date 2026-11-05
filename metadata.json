@@ -37,5 +37,18 @@
         "created_at": "2026-11-03T13:18:08.212Z",
         "updated_at": "2026-11-03T13:18:08.212Z",
         "type": "plugin"
+    },
+    {
+        "id": "I1e7ookdrb20Sho-vPk8UmtmGyFw37dC",
+        "plugin": "cmdr",
+        "language": "zh-cn",
+        "version": "0.5.5",
+        "supported_versions": "0.5.5",
+        "title": "Commander",
+        "description": "Commander Localization & Tweaks",
+        "hash": "26a0b10e26a0b10e26a0b10e26a0b10e",
+        "created_at": "2026-11-05T11:22:50.253Z",
+        "updated_at": "2026-11-05T11:22:50.253Z",
+        "type": "plugin"
     }
 ]
