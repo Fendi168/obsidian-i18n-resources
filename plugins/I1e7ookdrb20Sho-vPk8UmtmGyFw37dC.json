@@ -223,8 +223,504 @@
                     "target": "高级设置"
                 }
             ],
-            "regex": []
+            "regex": [
+                {
+                    "source": "\"Hide menu items\":\"Hide menu items\"",
+                    "target": "\"Hide menu items\":\"隐藏菜单项\""
+                },
+                {
+                    "source": "\"Menu item name or /regex/\":\"Menu item name or /regex/\"",
+                    "target": "\"Menu item name or /regex/\":\"菜单项名称或 /正则表达式/\""
+                },
+                {
+                    "source": "\"Open this menu once and its items will appear here to toggle. Regexes and names typed above are always applied.\":\"Open this menu once and its items will appear here to toggle. Regexes and names typed above are always applied.\"",
+                    "target": "\"Open this menu once and its items will appear here to toggle. Regexes and names typed above are always applied.\":\"打开一次此菜单，其菜单项就会显示在此处以供切换。上方输入的正则表达式与名称始终生效。\""
+                },
+                {
+                    "source": "\"Invalid regular expression \\u2014 this entry is ignored.\":\"Invalid regular expression \\u2014 this entry is ignored.\"",
+                    "target": "\"Invalid regular expression \\u2014 this entry is ignored.\":\"无效的正则表达式 —— 该条目已被忽略。\""
+                },
+                {
+                    "source": "\"Remove items from this menu by their exact name (case-insensitive), or by a regular expression wrapped in slashes, e.g. /^Open in default app$/i.\":\"Remove items from this menu by their exact name (case-insensitive), or by a regular expression wrapped in slashes, e.g. /^Open in default app$/i.\"",
+                    "target": "\"Remove items from this menu by their exact name (case-insensitive), or by a regular expression wrapped in slashes, e.g. /^Open in default app$/i.\":\"可通过准确名称（不区分大小写）或者用斜杠包裹的正则表达式从此菜单移除条目，例如 /^在默认应用中打开$/i。\""
+                },
+                {
+                    "source": "\"Restore default\":\"Restore default\"",
+                    "target": "\"Restore default\":\"恢复默认\""
+                },
+                {
+                    "source": "\"Turn off to hide ribbon icons added by Obsidian or other plugins.\":\"Turn off to hide ribbon icons added by Obsidian or other plugins.\"",
+                    "target": "\"Turn off to hide ribbon icons added by Obsidian or other plugins.\":\"关闭后将隐藏由 Obsidian 或其他插件添加的侧边栏图标。\""
+                },
+                {
+                    "source": "\"Core Plugin\":\"Core Plugin\"",
+                    "target": "\"Core Plugin\":\"核心插件\""
+                },
+                {
+                    "source": "\"Turn off to hide status bar items added by Obsidian or other plugins.\":\"Turn off to hide status bar items added by Obsidian or other plugins.\"",
+                    "target": "\"Turn off to hide status bar items added by Obsidian or other plugins.\":\"关闭后将隐藏由 Obsidian 或其他插件添加的状态栏项目。\""
+                },
+                {
+                    "source": "\"Add entry\":\"Add entry\"",
+                    "target": "\"Add entry\":\"添加条目\""
+                },
+                {
+                    "source": "\"Regular expressions\":\"Regular expressions\"",
+                    "target": "\"Regular expressions\":\"正则表达式\""
+                },
+                {
+                    "source": "\"No regular expressions added.\":\"No regular expressions added.\"",
+                    "target": "\"No regular expressions added.\":\"尚未添加任何正则表达式。\""
+                },
+                {
+                    "source": "\"Sequences of commands you can run as one\":\"Sequences of commands you can run as one\"",
+                    "target": "\"Sequences of commands you can run as one\":\"可一次性执行的命令序列\""
+                },
+                {
+                    "source": "\"No Macros yet!\":\"No Macros yet!\"",
+                    "target": "\"No Macros yet!\":\"暂无宏！\""
+                },
+                {
+                    "source": "\"{{count}} Actions\":\"{{count}} Actions\"",
+                    "target": "\"{{count}} Actions\":\"{{count}} 个操作\""
+                },
+                {
+                    "source": "\"Edit Macro\":\"Edit Macro\"",
+                    "target": "\"Edit Macro\":\"编辑宏\""
+                },
+                {
+                    "source": "\"Add Macro\":\"Add Macro\"",
+                    "target": "\"Add Macro\":\"添加宏\""
+                },
+                {
+                    "source": "\"ID: {{id}}\":\"ID: {{id}}\"",
+                    "target": "\"ID: {{id}}\":\"ID：{{id}}\""
+                },
+                {
+                    "source": "\"No icon\":\"No icon\"",
+                    "target": "\"No icon\":\"无图标\""
+                },
+                {
+                    "source": "\"Reset to default - requires a restart\":\"Reset to default - requires a restart\"",
+                    "target": "\"Reset to default - requires a restart\":\"重置为默认（需要重启）\""
+                },
+                {
+                    "source": "\"If the default icon doesn't appear, you might have to restart Obsidian.\":\"If the default icon doesn't appear, you might have to restart Obsidian.\"",
+                    "target": "\"If the default icon doesn't appear, you might have to restart Obsidian.\":\"如果未显示默认图标，你可能需要重启 Obsidian。\""
+                },
+                {
+                    "source": "\"Open mobile settings\":\"Open mobile settings\"",
+                    "target": "\"Open mobile settings\":\"打开移动端设置\""
+                },
+                {
+                    "source": "\"The Toolbar is only available in Obsidian Mobile. To configure which Commands show up in the Toolbar, open the Mobile Settings.\":\"The Toolbar is only available in Obsidian Mobile. To configure which Commands show up in the Toolbar, open the Mobile Settings.\"",
+                    "target": "\"The Toolbar is only available in Obsidian Mobile. To configure which Commands show up in the Toolbar, open the Mobile Settings.\":\"工具栏仅在 Obsidian 移动端可用。如需配置在工具栏中显示哪些命令，请打开移动端设置。\""
+                },
+                {
+                    "source": "\"Mobile only\":\"Mobile only\"",
+                    "target": "\"Mobile only\":\"仅移动端\""
+                },
+                {
+                    "source": "\"The Toolbar is only available in Obsidian Mobile.\":\"The Toolbar is only available in Obsidian Mobile.\"",
+                    "target": "\"The Toolbar is only available in Obsidian Mobile.\":\"工具栏仅在 Obsidian 移动端可用。\""
+                },
+                {
+                    "source": "\"Toolbar row count\":\"Toolbar row count\"",
+                    "target": "\"Toolbar row count\":\"工具栏行数\""
+                },
+                {
+                    "source": "\"Set how many rows the mobile toolbar should have. Set this to 0 to remove the toolbar.\":\"Set how many rows the mobile toolbar should have. Set this to 0 to remove the toolbar.\"",
+                    "target": "\"Set how many rows the mobile toolbar should have. Set this to 0 to remove the toolbar.\":\"设置移动端工具栏的行数。设置为 0 即可移除工具栏。\""
+                },
+                {
+                    "source": "\"Column layout\":\"Column layout\"",
+                    "target": "\"Column layout\":\"列布局\""
+                },
+                {
+                    "source": "\"Use a column based layout instead of the default row. This makes it easier to arrange the commands.\":\"Use a column based layout instead of the default row. This makes it easier to arrange the commands.\"",
+                    "target": "\"Use a column based layout instead of the default row. This makes it easier to arrange the commands.\":\"使用基于列的布局替代默认行布局，便于排列命令。\""
+                },
+                {
+                    "source": "\"Bottom offset\":\"Bottom offset\"",
+                    "target": "\"Bottom offset\":\"底部偏移\""
+                },
+                {
+                    "source": "\"Offset the toolbar from the bottom of the screen. This is useful if the toolbar is partially obscured by other UI elements.\":\"Offset the toolbar from the bottom of the screen. This is useful if the toolbar is partially obscured by other UI elements.\"",
+                    "target": "\"Offset the toolbar from the bottom of the screen. This is useful if the toolbar is partially obscured by other UI elements.\":\"设置工具栏距离屏幕底部的偏移量。当工具栏被其他界面元素遮挡时该选项很有用。\""
+                },
+                {
+                    "source": "\"Custom icons\":\"Custom icons\"",
+                    "target": "\"Custom icons\":\"自定义图标\""
+                },
+                {
+                    "source": "\"Advanced settings\":\"Advanced settings\"",
+                    "target": "\"Advanced settings\":\"高级设置\""
+                },
+                {
+                    "source": "\"Button height\":\"Button height\"",
+                    "target": "\"Button height\":\"按钮高度\""
+                },
+                {
+                    "source": "\"Change the height of each button inside the mobile toolbar (in px).\":\"Change the height of each button inside the mobile toolbar (in px).\"",
+                    "target": "\"Change the height of each button inside the mobile toolbar (in px).\":\"修改移动端工具栏内每个按钮的高度（单位：像素）。\""
+                },
+                {
+                    "source": "\"Button width\":\"Button width\"",
+                    "target": "\"Button width\":\"按钮宽度\""
+                },
+                {
+                    "source": "\"Change the width of each button inside the mobile toolbar (in px).\":\"Change the width of each button inside the mobile toolbar (in px).\"",
+                    "target": "\"Change the width of each button inside the mobile toolbar (in px).\":\"修改移动端工具栏内每个按钮的宽度（单位：像素）。\""
+                },
+                {
+                    "source": "\"Toolbar extra spacing\":\"Toolbar extra spacing\"",
+                    "target": "\"Toolbar extra spacing\":\"工具栏额外间距\""
+                },
+                {
+                    "source": "\"Some themes need extra spacing in the toolbar. If your toolbar doesn't wrap properly, try increasing this value.\":\"Some themes need extra spacing in the toolbar. If your toolbar doesn't wrap properly, try increasing this value.\"",
+                    "target": "\"Some themes need extra spacing in the toolbar. If your toolbar doesn't wrap properly, try increasing this value.\":\"部分主题需要为工具栏设置额外间距。如果工具栏换行异常，可以尝试增大该数值。\""
+                },
+                {
+                    "source": "\"Mobile Toolbar\":\"Mobile Toolbar\"",
+                    "target": "\"Mobile Toolbar\":\"移动端工具栏\""
+                },
+                {
+                    "source": "\"Mobile toolbar layout and icons\":\"Mobile toolbar layout and icons\"",
+                    "target": "\"Mobile toolbar layout and icons\":\"移动端工具栏布局与图标\""
+                },
+                {
+                    "source": "\"Commands shown in the left ribbon\":\"Commands shown in the left ribbon\"",
+                    "target": "\"Commands shown in the left ribbon\":\"左侧侧边栏显示的命令\""
+                },
+                {
+                    "source": "\"Commands shown in the right ribbon\":\"Commands shown in the right ribbon\"",
+                    "target": "\"Commands shown in the right ribbon\":\"右侧侧边栏显示的命令\""
+                },
+                {
+                    "source": "\"Ribbon commands\":\"Ribbon commands\"",
+                    "target": "\"Ribbon commands\":\"侧边栏命令\""
+                },
+                {
+                    "source": "\"Commands shown in the status bar\":\"Commands shown in the status bar\"",
+                    "target": "\"Commands shown in the status bar\":\"状态栏显示的命令\""
+                },
+                {
+                    "source": "\"Statusbar commands\":\"Statusbar commands\"",
+                    "target": "\"Statusbar commands\":\"状态栏命令\""
+                },
+                {
+                    "source": "\"Commands shown in the note header\":\"Commands shown in the note header\"",
+                    "target": "\"Commands shown in the note header\":\"笔记头部显示的命令\""
+                },
+                {
+                    "source": "\"Page header commands\":\"Page header commands\"",
+                    "target": "\"Page header commands\":\"页面头部命令\""
+                },
+                {
+                    "source": "\"Commands shown in the file explorer\":\"Commands shown in the file explorer\"",
+                    "target": "\"Commands shown in the file explorer\":\"文件资源管理器显示的命令\""
+                },
+                {
+                    "source": "\"Explorer commands\":\"Explorer commands\"",
+                    "target": "\"Explorer commands\":\"资源管理器命令\""
+                },
+                {
+                    "source": "\"Explorer focus\":\"Explorer focus\"",
+                    "target": "\"Explorer focus\":\"资源管理器焦点\""
+                },
+                {
+                    "source": "\"When clicking on a Command in the Explorer, the Explorer view will become focused. This might interfere with Commands that are supposed to be executed on an active File/Explorer.\":\"When clicking on a Command in the Explorer, the Explorer view will become focused. This might interfere with Commands that are supposed to be executed on an active File/Explorer.\"",
+                    "target": "\"When clicking on a Command in the Explorer, the Explorer view will become focused. This might interfere with Commands that are supposed to be executed on an active File/Explorer.\":\"点击资源管理器内的命令时，资源管理器视图将获得焦点。这可能会干扰那些需要针对已选中文件或资源管理器执行的命令。\""
+                },
+                {
+                    "source": "\"Commands in the editor right-click menu\":\"Commands in the editor right-click menu\"",
+                    "target": "\"Commands in the editor right-click menu\":\"编辑器右键菜单中的命令\""
+                },
+                {
+                    "source": "\"Editor menu commands\":\"Editor menu commands\"",
+                    "target": "\"Editor menu commands\":\"编辑器菜单命令\""
+                },
+                {
+                    "source": "\"Commands in the file right-click menu\":\"Commands in the file right-click menu\"",
+                    "target": "\"Commands in the file right-click menu\":\"文件右键菜单中的命令\""
+                },
+                {
+                    "source": "\"File menu commands\":\"File menu commands\"",
+                    "target": "\"File menu commands\":\"文件菜单命令\""
+                },
+                {
+                    "source": "\"Text Toolbar\":\"Text Toolbar\"",
+                    "target": "\"Text Toolbar\":\"文本工具栏\""
+                },
+                {
+                    "source": "\"Commands in the Text Formatting Toolbar plugin\":\"Commands in the Text Formatting Toolbar plugin\"",
+                    "target": "\"Commands in the Text Formatting Toolbar plugin\":\"文本格式工具栏插件内的命令\""
+                },
+                {
+                    "source": "\"Text toolbar commands\":\"Text toolbar commands\"",
+                    "target": "\"Text toolbar commands\":\"文本工具栏命令\""
+                },
+                {
+                    "source": "\"New Tab\":\"New Tab\"",
+                    "target": "\"New Tab\":\"新标签页\""
+                },
+                {
+                    "source": "\"Commands shown on the empty new tab page\":\"Commands shown on the empty new tab page\"",
+                    "target": "\"Commands shown on the empty new tab page\":\"空白新标签页上显示的命令\""
+                },
+                {
+                    "source": "\"New tab commands\":\"New tab commands\"",
+                    "target": "\"New tab commands\":\"新标签页命令\""
+                },
+                {
+                    "source": "\"Hide Commands of other Plugins\":\"Hide Commands of other Plugins\"",
+                    "target": "\"Hide Commands of other Plugins\":\"隐藏其他插件的命令\""
+                },
+                {
+                    "source": "\"Open Commander Settings\":\"Open Commander Settings\"",
+                    "target": "\"Open Commander Settings\":\"打开指挥官设置\""
+                },
+                {
+                    "source": "\"Open Macro Builder\":\"Open Macro Builder\"",
+                    "target": "\"Open Macro Builder\":\"打开宏构建器\""
+                },
+                {
+                    "source": "\"Change Icon\":\"Change Icon\"",
+                    "target": "\"Change Icon\":\"更改图标\""
+                },
+                {
+                    "source": "\"Add command\":\"Add command\"",
+                    "target": "\"Add command\":\"添加命令\""
+                },
+                {
+                    "source": "\"This Command seems to have been removed. {{command_name}}\":\"This Command seems to have been removed. {{command_name}}\"",
+                    "target": "\"This Command seems to have been removed. {{command_name}}\":\"该命令似乎已被移除：{{command_name}}\""
+                },
+                {
+                    "source": "\"Choose a Command to add\":\"Choose a Command to add\"",
+                    "target": "\"Choose a Command to add\":\"选择要添加的命令\""
+                },
+                {
+                    "source": "\"to navigate\":\"to navigate\"",
+                    "target": "\"to navigate\":\"进行导航\""
+                },
+                {
+                    "source": "\"to choose an icon\":\"to choose an icon\"",
+                    "target": "\"to choose an icon\":\"选择图标\""
+                },
+                {
+                    "source": "\"to cancel\":\"to cancel\"",
+                    "target": "\"to cancel\":\"取消操作\""
+                },
+                {
+                    "source": "\"Use a custom name\":\"Use a custom name\"",
+                    "target": "\"Use a custom name\":\"使用自定义名称\""
+                },
+                {
+                    "source": "\"Choose a custom Name for your new Command\":\"Choose a custom Name for your new Command\"",
+                    "target": "\"Choose a custom Name for your new Command\":\"为你的新命令设置一个自定义名称\""
+                },
+                {
+                    "source": "\"to save\":\"to save\"",
+                    "target": "\"to save\":\"保存\""
+                },
+                {
+                    "source": "\"Choose a Icon for your new Command\":\"Choose a Icon for your new Command\"",
+                    "target": "\"Choose a Icon for your new Command\":\"为你的新命令选择图标\""
+                },
+                {
+                    "source": "\"to choose a custom icon\":\"to choose a custom icon\"",
+                    "target": "\"to choose a custom icon\":\"选择自定义图标\""
+                },
+                {
+                    "source": "\"Remove Command\":\"Remove Command\"",
+                    "target": "\"Remove Command\":\"移除命令\""
+                },
+                {
+                    "source": "\"Double click to rename\":\"Double click to rename\"",
+                    "target": "\"Double click to rename\":\"双击重命名\""
+                },
+                {
+                    "source": "\"This device\":\"This device\"",
+                    "target": "\"This device\":\"此设备\""
+                },
+                {
+                    "source": "\"Added by {{plugin_name}}.\":\"Added by {{plugin_name}}.\"",
+                    "target": "\"Added by {{plugin_name}}.\":\"由 {{plugin_name}} 添加。\""
+                },
+                {
+                    "source": "\"Warning: This is a checked Command, meaning it might not run under every circumstance.\":\"Warning: This is a checked Command, meaning it might not run under every circumstance.\"",
+                    "target": "\"Warning: This is a checked Command, meaning it might not run under every circumstance.\":\"警告：这是一条受条件检查的命令，并非在所有情况下都可以执行。\""
+                },
+                {
+                    "source": "\"Move down\":\"Move down\"",
+                    "target": "\"Move down\":\"向下移动\""
+                },
+                {
+                    "source": "\"Move up\":\"Move up\"",
+                    "target": "\"Move up\":\"向上移动\""
+                },
+                {
+                    "source": "\"Change Mode (Currently: {{current_mode}})\":\"Change Mode (Currently: {{current_mode}})\"",
+                    "target": "\"Change Mode (Currently: {{current_mode}})\":\"更改模式（当前：{{current_mode}}）\""
+                },
+                {
+                    "source": "\"Are you sure you want to delete the Command?\":\"Are you sure you want to delete the Command?\"",
+                    "target": "\"Are you sure you want to delete the Command?\":\"确定要删除这条命令吗？\""
+                },
+                {
+                    "source": "\"Remove and don't ask again\":\"Remove and don't ask again\"",
+                    "target": "\"Remove and don't ask again\":\"直接删除，不再询问\""
+                },
+                {
+                    "source": "\"Always ask before removing?\":\"Always ask before removing?\"",
+                    "target": "\"Always ask before removing?\":\"删除前是否始终询问？\""
+                },
+                {
+                    "source": "\"Always show a Popup to confirm deletion of a Command.\":\"Always show a Popup to confirm deletion of a Command.\"",
+                    "target": "\"Always show a Popup to confirm deletion of a Command.\":\"删除命令时始终弹出确认窗口。\""
+                },
+                {
+                    "source": "\"Please restart Obsidian for these changes to take effect.\":\"Please restart Obsidian for these changes to take effect.\"",
+                    "target": "\"Please restart Obsidian for these changes to take effect.\":\"请重启 Obsidian 以使更改生效。\""
+                },
+                {
+                    "source": "\"Enable debugging\":\"Enable debugging\"",
+                    "target": "\"Enable debugging\":\"启用调试\""
+                },
+                {
+                    "source": "\"Enable console output.\":\"Enable console output.\"",
+                    "target": "\"Enable console output.\":\"开启控制台输出。\""
+                },
+                {
+                    "source": "\"Editor Menu\":\"Editor Menu\"",
+                    "target": "\"Editor Menu\":\"编辑器菜单\""
+                },
+                {
+                    "source": "\"File Menu\":\"File Menu\"",
+                    "target": "\"File Menu\":\"文件菜单\""
+                },
+                {
+                    "source": "\"Right Ribbon\":\"Right Ribbon\"",
+                    "target": "\"Right Ribbon\":\"右侧侧边栏\""
+                },
+                {
+                    "source": "\"Support development\":\"Support development\"",
+                    "target": "\"Support development\":\"支持项目开发\""
+                },
+                {
+                    "source": "\"No commands here!\":\"No commands here!\"",
+                    "target": "\"No commands here!\":\"此处暂无命令！\""
+                },
+                {
+                    "source": "\"Would you like to add one now?\":\"Would you like to add one now?\"",
+                    "target": "\"Would you like to add one now?\":\"是否现在添加一条？\""
+                },
+                {
+                    "source": "\"Hide Commands\":\"Hide Commands\"",
+                    "target": "\"Hide Commands\":\"隐藏命令\""
+                },
+                {
+                    "source": "\"Choose new\":\"Choose new\"",
+                    "target": "\"Choose new\":\"选择新建\""
+                },
+                {
+                    "source": "\"Custom Name\":\"Custom Name\"",
+                    "target": "\"Custom Name\":\"自定义名称\""
+                },
+                {
+                    "source": "\"Add command to all devices\":\"Add command to all devices\"",
+                    "target": "\"Add command to all devices\":\"将命令添加到全部设备\""
+                },
+                {
+                    "source": "\"Add command only to mobile devices\":\"Add command only to mobile devices\"",
+                    "target": "\"Add command only to mobile devices\":\"仅添加到移动端设备\""
+                },
+                {
+                    "source": "\"Add command only to desktop devices\":\"Add command only to desktop devices\"",
+                    "target": "\"Add command only to desktop devices\":\"仅添加到桌面端设备\""
+                },
+                {
+                    "source": "\"Add command only to this device\":\"Add command only to this device\"",
+                    "target": "\"Add command only to this device\":\"仅添加到此设备\""
+                },
+                {
+                    "source": "\"By Johnny\\u2728 and phibr0\":\"By Johnny\\u2728 and phibr0\"",
+                    "target": "\"By Johnny\\u2728 and phibr0\":\"由 Johnny✨ 与 phibr0 开发\""
+                },
+                {
+                    "source": "\"Leave feedback\":\"Leave feedback\"",
+                    "target": "\"Leave feedback\":\"提交反馈\""
+                },
+                {
+                    "source": "\"Send feedback\":\"Send feedback\"",
+                    "target": "\"Send feedback\":\"发送反馈\""
+                },
+                {
+                    "source": "\"Share feedback, issues, and ideas with our feedback form.\":\"Share feedback, issues, and ideas with our feedback form.\"",
+                    "target": "\"Share feedback, issues, and ideas with our feedback form.\":\"通过反馈表单提交你的反馈、问题与想法。\""
+                },
+                {
+                    "source": "\"Consider donating to support development.\":\"Consider donating to support development.\"",
+                    "target": "\"Consider donating to support development.\":\"欢迎捐赠以支持项目开发。\""
+                },
+                {
+                    "source": "\"This Command is not available on this device.\":\"This Command is not available on this device.\"",
+                    "target": "\"This Command is not available on this device.\":\"该命令在此设备上不可用。\""
+                },
+                {
+                    "source": "\"Hide other Commands\":\"Hide other Commands\"",
+                    "target": "\"Hide other Commands\":\"隐藏其他命令\""
+                },
+                {
+                    "source": "\"Double click to enter custom value\":\"Double click to enter custom value\"",
+                    "target": "\"Double click to enter custom value\":\"双击输入自定义数值\""
+                },
+                {
+                    "source": "\"Choose custom spacing for Command Buttons\":\"Choose custom spacing for Command Buttons\"",
+                    "target": "\"Choose custom spacing for Command Buttons\":\"为命令按钮设置自定义间距\""
+                },
+                {
+                    "source": "\"Open Appearance Settings\":\"Open Appearance Settings\"",
+                    "target": "\"Open Appearance Settings\":\"打开外观设置\""
+                },
+                {
+                    "source": ".setText(\"Macro builder\")",
+                    "target": ".setText(\"宏构建器\")"
+                },
+                {
+                    "source": "Toolbar:\"Toolbar\",\"Mobile toolbar layout and icons\"",
+                    "target": "Toolbar:\"移动端工具栏\",\"移动工具栏布局和图标\""
+                },
+                {
+                    "source": "{onClick:f},\"Add Command\"",
+                    "target": "{onClick:f},\" 添加命令 \""
+                },
+                {
+                    "source": "{onClick:u},\"Add Delay\"",
+                    "target": "{onClick:u},\" 添加延迟 \""
+                },
+                {
+                    "source": "\"Auto-Run on Startup\"",
+                    "target": "\"启动时自动运行\""
+                },
+                {
+                    "source": "Icon:\"Icon\",Name:\"Name\"",
+                    "target": "Icon:\"图标\",Name:\"名称\""
+                },
+                {
+                    "source": "Cancel:\"Cancel\"",
+                    "target": "Cancel:\"取消\""
+                },
+                {
+                    "source": "Remove:\"Remove\"",
+                    "target": "Remove:\"移除\""
+                }
+            ]
         }
     },
-    "extractRegex": []
+    "extractRegex": [
+        "\"([^\"]+)\":\"\\1\"",
+        "\\.setText\\(\"([^\"]+)\"\\)"
+    ]
 }
